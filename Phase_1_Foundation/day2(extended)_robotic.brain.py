@@ -1,5 +1,5 @@
 def sense_distance():
-    # Pretend sensor reading
+   
     return 7
 
 def decide(distance):
@@ -14,3 +14,4 @@ def act(decision):
 distance = sense_distance()
 decision = decide(distance)
 act(decision)
+
