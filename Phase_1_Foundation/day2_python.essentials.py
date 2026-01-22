@@ -1,21 +1,21 @@
-# Robot variables
-speed = 5          # motor speed
-distance = 12      # sensor distance in cm
+
+speed = 5
+distance = 12     
 
 print("Speed:", speed)
 print("Distance:", distance)
 
-# Robot decision making
+
 if distance < 10:
     print("STOP robot")
 else:
     print("MOVE forward")
 
-# Robot repetition (loop)
+
 for i in range(3):
     print("Robot moving...")
 
-# Robot actions using functions
+
 def move_forward():
     print("Moving forward")
 
@@ -26,3 +26,4 @@ if distance < 10:
     stop()
 else:
     move_forward()
+
