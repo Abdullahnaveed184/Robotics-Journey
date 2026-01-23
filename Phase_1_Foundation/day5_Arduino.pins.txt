@@ -1,0 +1,11 @@
+Arduino Uno(microcontroller):
+--Microcontrollers are the boards that are used to control power supply.
+--They have pins output and input.
+--Pins are the pathways through which current flows and command flows.
+--Types; Digital pins and Power pins.
+----Digital pins..
+           These are the pins through which commands are transferred. They provide current but a resistor is must used because, so the current may not over flow.
+----Power pins..
+           They are basically used to provide current. There are some output ranges present up there as 5V or 3V. 
+           GND is also present there so they could return the current to battery and act as the battery path.
+           
