@@ -1,0 +1,7 @@
+Here is the third type of Arduino pin Pulse Width modulation(PWM):-
+--These pins open the current for object but not constant.
+--This is the way we provide some low power to object.
+--These are the pins by which we control brightness of LEDs and speed of motors.
+--These pins are shown by this,(~).
+  e.g: pin= ~9.
+--These are most useful pins in control. 
