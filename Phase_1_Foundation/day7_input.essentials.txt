@@ -1,0 +1,42 @@
+Input pins and their logic of working:-
+--First here is a diagram it will help
+  
+  (Power)---
+           |           ----------
+           |           | Arduino|
+       (Input pin)-----|  Brain |----  
+           |           |(Chip)  |   |
+           |           ----------   |
+         (Sensor)                   |
+           |                     (Output)
+           |                        |
+ (GND)------                        |
+                                   (LED)
+
+--In simple power is provided to input pin.
+--Only in case, if sensor is closed, the current will go to Arduino.
+--Arduino will read it as ON.
+--If sensor opens, current will flow to the GND.
+--Arduino will read it as OFF.
+--This code is written in the Arduino:
+void setup() {
+  pinMode(7, INPUT_PULLUP);
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  if (digitalRead(7) == LOW) {
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+}
+
+--So, if input is ON, the output will remain OFF.
+--If input is OFF, output will be ON.
+
+Why INPUT_PULL is used?
+--As we know if there is no Arduino power pull the code will show a bug.
+--To avid this bug and power mismanagement we use this.
+--This allow a path for current to flow, in case GND is turned OFF.
+
