@@ -1,0 +1,14 @@
+Arduino brain(Decision making ability):-
+--Arduino is one of the fastest microcontroller.
+--As fast it performs, it also decides.
+--Decisions are taken by the words "if" and "else".
+--This important task is done by the code as:
+__> if(digitaLRead(7)==LOW){
+    digitalWrite(13,HIGH);
+   }else{
+    digitalWrite(13,LOW);
+   }
+    
+--This is the fundamental of decision making in the machines.
+--If we think then these are not decisions but simple codes.
+  Interesting!
