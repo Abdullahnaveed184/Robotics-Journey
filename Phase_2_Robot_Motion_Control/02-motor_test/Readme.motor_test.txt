@@ -1,6 +1,4 @@
 Motor drivers are without any doubt a very helpful too. But without instructions from Arduino it can only spin motor soullessly.
-This link will lead you to the video of motor test:
-https://drive.google.com/file/d/1IEZ6l99CKh5eymF_5ko2jZeFfQ7GNwRN/view?usp=drive_link
 My first ever experiment to spin the motor two ways was as follow:-
 --Equipment used are as follow:
 .Arduino R3
@@ -27,4 +25,5 @@ My first ever experiment to spin the motor two ways was as follow:-
 
 --This first ever two way motor spinning gave me courage that if a motor can spin two ways
 then any project, system and connection can performe  in this way.
+
 
